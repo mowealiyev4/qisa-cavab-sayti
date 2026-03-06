@@ -325,10 +325,8 @@ function sendVote(value){
 }
 
 
-function openCategory(category, btn){
-
-showAnswer(category);
-
-document.getElementById("audioControls").style.display = "block";
-
+function showMessage(text){
+  const box=document.getElementById("voteMessage");
+  box.innerText=text;
+  box.classList.add("show");
 }
