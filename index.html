@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Qısa Cavab</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- 🔵 SAĞ YUXARI – SAYT MƏLUMATI -->
+  <aside class="info-panel">
+    <button class="info-toggle">ℹ️ Sayt Məlumatı</button>
+    <div class="info-content">
+      <p>Yaradılıb: 20.02.2026</p>
+      <p>Son yenilənmə: 2026</p>
+      <p>Status: aktiv</p>
+    </div>
+  </aside>
+
+  <!-- 🔵 ƏSAS SƏHİFƏ -->
+  <div class="page">
+    <div class="card">
+
+      <!-- AXTARIŞ -->
+<input
+  id="searchBox"
+  type="text"
+  placeholder="🔍 Problemini yaz (məs: WhatsApp açılmır)"
+  style="
+    width:100%;
+    margin:16px 0;
+    padding:12px 14px;
+    border-radius:14px;
+    border:none;
+    outline:none;
+    font-size:15px;
+  "
+/>
+
+      <h1>Problemini Axtar Və Tap</h1>
+      <p class="subtitle2">Qısa və aydın cavab al</p>
+
+      <div class="trust">
+        ✔️ Ən çox rast gəlinən problemlər üçün hazırlanıb
+      </div>
+
+      <!-- İKONLAR -->
+      <div class="icons">
+
+        <button class="icon" onclick="openCategory('telegram', this)">
+          <img src="images/telegram.png" alt="Telegram">
+          <span>Telegram</span>
+        </button>
+
+        <button class="icon" onclick="openCategory('whatsapp', this)">
+          <img src="images/whatsapp.png" alt="WhatsApp">
+          <span>WhatsApp</span>
+        </button>
+
+        <button class="icon" onclick="openCategory('instagram', this)">
+          <img src="images/instagram.png" alt="Instagram">
+          <span>Instagram</span>
+        </button>
+
+        <button class="icon" onclick="openCategory('tiktok', this)">
+          <img src="images/tiktok.png" alt="TikTok">
+          <span>TikTok</span>
+        </button>
+
+        <button class="icon" onclick="openCategory('removebg', this)">
+          <img src="images/removebg.png" alt="Fon silmə">
+          <span>Fon silmə</span>
+        </button>
+
+        <button class="icon" onclick="openCategory('gemini', this)">
+          <img src="images/gemini.png" alt="Süni intellekt">
+          <span>Süni intellekt</span>
+        </button>
+
+        <button class="icon" onclick="openCategory('elevenlabs', this)">
+          <img src="images/elevenlabs.png" alt="Səs klonlama">
+          <span>Səs klonlama</span>
+        </button>
+
+        <button class="icon" onclick="openCategory('navigator', this)">
+          <img src="images/waze.navigation.png" alt="Navigator">
+          <span>Navigator</span>
+        </button>
+
+        <button class="icon" onclick="openCategory('youtube', this)">
+          <img src="images/youtube.png" alt="Youtube">
+          <span>Youtube</span>
+        </button>
+
+        <button class="icon" onclick="openCategory('Translate_Add_Subtitles_Video', this)">
+          <img src="images/video.tərcümə.png" alt="Translate_Add_Subtitles_Video">
+          <span>Video tərcümə</span>
+        </button>
+
+        <button class="icon" onclick="openCategory('Paysend', this)">
+          <img src="images/paysend.png" alt="Paysend">
+          <span>Paysend</span>
+        </button>
+
+      </div>
+
+      <!-- SUALLAR -->
+      <div id="questionsBox" class="questions" style="display:none;"></div>
+
+      <!-- CAVAB -->
+
+      <div class="feedback-box">
+  <span>Bu cavab faydalı oldumu?</span>
+
+  <button type="button" class="fb-btn like" onclick="sendVote('Like')">
+    👍 Like
+  </button>
+
+  <button type="button" class="fb-btn dislike" onclick="sendVote('Dislike')">
+    👎 Dislike
+  </button>
+
+  <div id="voteMessage" class="vote-message"></div>
+
+  <!-- gizli iframe -->
+<!-- gizli iframe -->
+<form
+  action="https://docs.google.com/forms/d/e/1FAIpQLSdNGdZEzpCTuPC3LTMjM1OlEJGoqQXsheVcV1e8wZ6G7gHHcw/formResponse"
+  method="POST"
+  target="hidden_iframe">
+
+  <input type="hidden"
+         name="entry.1399264330"
+         id="voteValue">
+</form>
+
+
+</form>
+</div>
+
+
+<div id="answerBox" class="answer">
+  <span id="textAnswer"></span>
+  </div>
+
+  <button class="action-btn"
+          onclick="playVoice(); setActiveGlow(this)">
+    🔊 Dinlə
+  </button>
+
+  <button class="action-btn"
+          onclick="stopVoice(); setActiveGlow(this)">
+    ⏹️ Dayandır
+  </button>
+</div>
+
+<audio id="voice" preload="auto"></audio>
+
+        
+      </div>
+
+    </div>
+  </div>
+  
+
+  <footer class="site-footer">
+    © 2026 Qısa Cavab Saytı<br>
+    <span>Bu sayt məlumatlandırma məqsədi daşıyır və rəsmi dəstək xidməti deyil.</span>
+  </footer>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
