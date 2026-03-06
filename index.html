@@ -19,8 +19,6 @@
     </div>
   </aside>
 
-<!-- update -->
-  
   <!-- 🔵 ƏSAS SƏHİFƏ -->
   <div class="page">
     <div class="card">
@@ -143,18 +141,19 @@
 </div>
 
 
-<div id="audioControls" style="display:none;">
+<div id="answerBox" class="answer">
+  <span id="textAnswer"></span>
+  </div>
 
-<button class="action-btn"
-onclick="playVoice(); setActiveGlow(this)">
-🔊 Dinlə
-</button>
+  <button class="action-btn"
+          onclick="playVoice(); setActiveGlow(this)">
+    🔊 Dinlə
+  </button>
 
-<button class="action-btn"
-onclick="stopVoice(); setActiveGlow(this)">
-⏹ Dayandır
-</button>
-
+  <button class="action-btn"
+          onclick="stopVoice(); setActiveGlow(this)">
+    ⏹️ Dayandır
+  </button>
 </div>
 
 <audio id="voice" preload="auto"></audio>
@@ -174,8 +173,4 @@ onclick="stopVoice(); setActiveGlow(this)">
   <script src="script.js"></script>
   
 </body>
-
 </html>
-
-
-
