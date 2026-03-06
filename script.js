@@ -113,33 +113,33 @@ Paysend: [
 // Səslər 
 //======================
 const AUDIO_MAP = {
-  "Linkə gir və tiktok vidyosunun linkini yapışdır.https://ssstik.io": "audio/logosuz.və.gizli.mp3",
+  "Linkə gir və tiktok vidyosunun linkini yapışdır.https://ssstik.io": "/logosuz.və.gizli.mp3",
 
-  "Linkə gir https://savefrom.com.de": "audio/Youtube.video.musiqi.mp3",
+  "Linkə gir https://savefrom.com.de": "/Youtube.video.musiqi.mp3",
   
-  "Canlı yol və xəritə navigasiyası üçün istifadə olunur https://www.waze.com/tr/live-map": "audio/Waze.navigation.mp3",
+  "Canlı yol və xəritə navigasiyası üçün istifadə olunur https://www.waze.com/tr/live-map": "/Waze.navigation.mp3",
 
-  "Saytda öz səsini klonla və bilməlisən ki (Sayt pulludur) https://elevenlabs.io": "audio/Səs.klonlama.mp3",
+  "Saytda öz səsini klonla və bilməlisən ki (Sayt pulludur) https://elevenlabs.io": "/Səs.klonlama.mp3",
 
-  "Süni intellekt platformasıdır.https://gemini.google.com/app": "audio/gemini.mp3",
+  "Süni intellekt platformasıdır.https://gemini.google.com/app": "/gemini.mp3",
 
-  "Linkə gir https://www.remove.bg": "audio/youtube.video.musiqi.mp3",
+  "Linkə gir https://www.remove.bg": "/youtube.video.musiqi.mp3",
 
-  "Sticker yaratmaq üçün bu sayıtdan istifadə et.https://getstickerpack.com/": "audio/whatsapp.sticker.mp3",
+  "Sticker yaratmaq üçün bu sayıtdan istifadə et.https://getstickerpack.com/": "/whatsapp.sticker.mp3",
 
-  "WhatsApp açılmırsa, tədbiqi yenilə keşini təmizlə və telefonu yenidən başlat.": "audio/whatsapp.açılmır.mp3",
+  "WhatsApp açılmırsa, tədbiqi yenilə keşini təmizlə və telefonu yenidən başlat.": "/whatsapp.açılmır.mp3",
 
-  "Whatsapp mesaj getmirsə interneti yoxla uçuş rejimini açıb bağla və telefonu restart et.": "audio/whatsapp.mesaj.getmir.mp3",
+  "Whatsapp mesaj getmirsə interneti yoxla uçuş rejimini açıb bağla və telefonu restart et.": "/whatsapp.mesaj.getmir.mp3",
 
-  "Telegrama girmirsə vəya telegramdan atırsa səni, o zaman telefonu söndür yandır.": "audio/Telegrama.girmir.vəya.atırsa.telegramdan.mp3",
+  "Telegrama girmirsə vəya telegramdan atırsa səni, o zaman telefonu söndür yandır.": "/Telegrama.girmir.vəya.atırsa.telegramdan.mp3",
 
-  "İnstagram açılmırsa interneti yoxla tədbigi bağlayıb aç keş təmizlə və yeniləmə olub olmadığını yoxla": "audio/instagram.açılmır.mp3",
+  "İnstagram açılmırsa interneti yoxla tədbigi bağlayıb aç keş təmizlə və yeniləmə olub olmadığını yoxla": "/instagram.açılmır.mp3",
 
-  "Gir və yüklə https://apps.apple.com/il/app/translate-add-subtitles-video/id1548718114": "audio/video.tərcümə.mp3",
+  "Gir və yüklə https://apps.apple.com/il/app/translate-add-subtitles-video/id1548718114": "/video.tərcümə.mp3",
 
-  "Gir və yüklə https://apps.apple.com/us/app/paysend-simple-money-transfer/id1140130413": "audio/video.tərcümə.mp3",
+  "Gir və yüklə https://apps.apple.com/us/app/paysend-simple-money-transfer/id1140130413": "/video.tərcümə.mp3",
 
-  "Gir və yüklə https://play.google.com/store/apps/details?id=com.paysend.app&hl=en": "audio/video.tərcümə.mp3",
+  "Gir və yüklə https://play.google.com/store/apps/details?id=com.paysend.app&hl=en": "/video.tərcümə.mp3",
 };
 
 function playVoice() {
@@ -329,4 +329,5 @@ function showMessage(text){
   const box=document.getElementById("voteMessage");
   box.innerText=text;
   box.classList.add("show");
+
 }
