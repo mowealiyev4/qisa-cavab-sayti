@@ -123,7 +123,7 @@ const AUDIO_MAP = {
 
   "Süni intellekt platformasıdır.https://gemini.google.com/app": "/gemini.mp3",
 
-  "Linkə gir https://www.remove.bg": "/youtube.video.musiqi.mp3",
+  "Linkə gir https://www.remove.bg": "/Youtube.video.musiqi.mp3",
 
   "Sticker yaratmaq üçün bu sayıtdan istifadə et.https://getstickerpack.com/": "/whatsapp.sticker.mp3",
 
@@ -330,3 +330,4 @@ function showMessage(text){
   box.innerText=text;
   box.classList.add("show");
 }
+
