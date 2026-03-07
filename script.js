@@ -307,6 +307,10 @@ if (searchBox) {
 
 function sendVote(value){
 
+  if(localStorage.getItem("voted")){
+    showMessage("Siz artıq səs vermisiniz ");
+    return;
+  }
 
   fetch("https://script.google.com/macros/s/AKfycbwrQlSrOkCN5jlTrSXV_E7QnEQmkW6Xsvre2OJKHU3HDMDCtU7KdxdL-L7y-5mejfUI/exec",{
     method:"POST",
@@ -315,7 +319,7 @@ function sendVote(value){
     })
   });
 
- 
+  localStorage.setItem("voted","true");
 
   showMessage("Səsiniz qəbul edildi 👍");
 }
