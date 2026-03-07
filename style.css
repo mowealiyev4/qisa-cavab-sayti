@@ -437,4 +437,19 @@ body {
   color:#ffffff;
 }
 
+.contact-email{
+color:white;
+font-weight:600;
+margin-top:6px;
+}
+
+.contact-email a{
+color:#ffd700;
+text-decoration:none;
+}
+
+.contact-email a:hover{
+text-decoration:underline;
+}
+
 
