@@ -133,7 +133,7 @@ const AUDIO_MAP = {
 
   "Telegrama girmirsə vəya telegramdan atırsa səni, o zaman telefonu söndür yandır.": "/Telegrama.girmir.vəya.atırsa.telegramdan.mp3",
 
-  "İnstagram açılmırsa interneti yoxla tədbigi bağlayıb aç keş təmizlə və yeniləmə olub olmadığını yoxla": "/instagram.açılmır.mp3",
+  "İnstagram açılmırsa interneti yoxla tədbigi bağlayıb aç keş təmizlə və yeniləmə olub olmadığını yoxla": "/Instagram.açılmır.mp3",
 
   "Gir və yüklə https://apps.apple.com/il/app/translate-add-subtitles-video/id1548718114": "/video.tərcümə.mp3",
 
@@ -330,4 +330,5 @@ function showMessage(text){
   box.innerText=text;
   box.classList.add("show");
 }
+
 
