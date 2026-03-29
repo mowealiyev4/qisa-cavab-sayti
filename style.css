@@ -24,7 +24,7 @@ body {
 
   background-image:
     linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
-    url(".//arxafon.jpg");
+    url("./images/arxafon.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -84,7 +84,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 12px;
+  gap: 7px;
 }
 
 /* DÜYMƏ */
@@ -437,6 +437,7 @@ body {
   color:#ffffff;
 }
 
+
 .contact-email{
 color:white;
 font-weight:600;
@@ -452,4 +453,250 @@ text-decoration:none;
 text-decoration:underline;
 }
 
+.menu-btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  background: #1e2a38;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.menu-container {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 1000;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 45px;
+  right: 0;
+  background: #1e2a38;
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.menu-container {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 9999;
+}
+
+.menu-btn {
+  background: #1e2a38;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.menu {
+  display: none;
+
+  position: fixed;
+  top: 70px;
+  right: 20px;
+  width: 240px;
+
+  background: rgba(20, 30, 50, 0.85);
+  backdrop-filter: blur(12px);
+
+  border-radius: 16px;
+  padding: 15px;
+
+  box-shadow: 0 10px 30px rgba(176, 24, 24, 0.4);
+
+  animation: fadeIn 0.3s ease;
+}
+
+.menu-item {
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.menu-item:hover {
+  background: rgba(255,255,255,0.08);
+}
+.menu-item:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.menu-content {
+  display: none;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.email-link {
+  color: white !important;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.menu-section {
+  display: none;
+  margin-top: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.05);
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(2px);
+
+  display: none;
+  z-index: 998;
+}
+
+#langBtn {
+  font-size: 16px;
+  font-family: "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+}
+
+.speed {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.speed img {
+  width: 100px;
+  height: 100px;
+}
+
+.speed span {
+  margin-left: -30px; /* yazını geri çəkir */
+}
+
+
+
+.youtube {
+  display: flex;
+  align-items: center;
+  gap: -10px;
+}
+
+.youtube img {
+  width: 100px;
+  height: 100px;
+}
+
+.youtube span {
+  margin-left: -30px; /* yazını geri çəkir */
+}
+
+
+.navigator {
+  display: flex;
+  align-items: center;
+  gap: -80px;
+}
+
+.navigator img {
+  width: 100px;
+  height: 100px;
+}
+
+.navigator span {
+  margin-left: -15px; /* yazını geri çəkir */
+}
+
+
+
+.elevenlabs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.elevenlabs img {
+  width: 100px;
+  height: 100px;
+}
+
+.site-footer {
+  position: fixed;
+  bottom: 7px;
+  left: 5px;
+
+  color: white;
+  font-size: 14px;
+  opacity: 4;
+
+  text-align: left;
+  z-index: 9999;
+
+  width: 480px; /* 👈 əsas fərq */
+  line-height: 1.4;
+}
+
+.site-footer p {
+  margin: 4px 0;
+  display: block;
+}
+
+.premium-text {
+  font-size: 17px;
+  line-height: 1.6;
+
+  background: linear-gradient(90deg, #ffffff, #a0cfff);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+  font-weight: 600;
+}
+
+.premium-text p {
+  color: #e6f7ff;
+  font-weight: 500;
+
+  text-shadow:
+    0 0 5px rgba(0,150,255,0.4),
+    0 0 10px rgba(0,150,255,0.3);
+}
+
+.feedback-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
