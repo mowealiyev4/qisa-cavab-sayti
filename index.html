@@ -3,32 +3,63 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5148606267739764"
-     crossorigin="anonymous"></script>
-
-  <title>Qısa Cavab </title>
-
-  
+  <title>Qısa Cavab</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+  
+  <div id="overlay" class="overlay"></div>
 
-  <!-- 🔵 SAĞ YUXARI – SAYT MƏLUMATI -->
-  <aside class="info-panel">
-    <button class="info-toggle">ℹ️ Sayt Məlumatı</button>
-    <div class="info-content">
-      <p>Yaradılıb: 20.02.2026</p>
-      <p>Son yenilənmə: 2026 </p>
-      <p>Status: aktiv</p>
-    </div>
-  </aside>
+<div class="menu-container">
+  <button onclick="toggleMenu()" class="menu-btn">☰</button>
+
+  <div id="menu" class="menu">
+
+    <div class="menu-item" onclick="shareSite()">
+  📤 Paylaş
+</div>
+    
+    <div class="menu-item" onclick="toggleSection('info')">
+  📌 Sayt Məlumatı
+</div>
+
+<div id="info" class="menu-section">
+  <p>Yaradılıb: 20.02.2026</p>
+  <p>Son yenilənmə: 2026</p>
+  <p>Status: aktiv</p>
+</div>
+
+<div class="menu-item" onclick="toggleSection('contact')">
+  📞 Əlaqə
+</div>
+
+<div id="contact" class="menu-section">
+  <p>
+    <a href="https://mail.google.com/mail/?view=cm&to=bilgi.mekani555@gmail.com" target="_blank" class="email-link">
+      bilgi.mekani555@gmail.com
+    </a>
+  </p>
+</div>
+
+<div class="menu-item" onclick="toggleSection('lang')" id="langBtn">
+  🌐 Dil seç ▾
+</div>
+
+<div id="lang" class="menu-section">
+  <div class="menu-item" onclick="changeLang('az')">AZ Azərbaycan</div>
+  <div class="menu-item" onclick="changeLang('tr')">TR Türk</div>
+  <div class="menu-item" onclick="changeLang('ru')">RU Русский</div>
+  <div class="menu-item" onclick="changeLang('en')">GB English</div>
+</div>
+
+  </div>
+</div>
 
   <!-- 🔵 ƏSAS SƏHİFƏ -->
   <div class="page">
     <div class="card">
+      
 
       <!-- AXTARIŞ -->
 <input
@@ -46,70 +77,96 @@
   "
 />
 
-      <h1>Problemini Axtar Və Tap</h1>
-      <p class="subtitle2">Qısa və aydın cavab al</p>
+      <h1 id="title">Problemini Axtar Və Tap</h1>
+      <p id="subtitle" class="subtitle2">Qısa və aydın cavab al</p>
 
       <div class="trust">
-        ✔️ Ən çox rast gəlinən problemlər üçün hazırlanıb
+      <p id="desc">✔️ Lazım olan saytları və pragramları burada tapa bilərsiz>
       </div>
 
       <!-- İKONLAR -->
       <div class="icons">
 
+        
+
         <button class="icon" onclick="openCategory('telegram', this)">
-          <img src="/telegram.png" alt="Telegram">
+          <img src="images/telegram.png" alt="Telegram">
           <span>Telegram</span>
         </button>
 
         <button class="icon" onclick="openCategory('whatsapp', this)">
-          <img src="/whatsapp.png" alt="WhatsApp">
+          <img src="images/whatsapp.png" alt="WhatsApp">
           <span>WhatsApp</span>
         </button>
 
         <button class="icon" onclick="openCategory('instagram', this)">
-          <img src="/instagram.png" alt="Instagram">
+          <img src="images/instagram.png" alt="Instagram">
           <span>Instagram</span>
         </button>
 
         <button class="icon" onclick="openCategory('tiktok', this)">
-          <img src="/tiktok.png" alt="TikTok">
+          <img src="images/tiktok.png" alt="TikTok">
           <span>TikTok</span>
         </button>
 
         <button class="icon" onclick="openCategory('removebg', this)">
-          <img src="/removebg.png" alt="Fon silmə">
+          <img src="images/removebg.png" alt="Fon silmə">
           <span>Fon silmə</span>
         </button>
 
         <button class="icon" onclick="openCategory('gemini', this)">
-          <img src="/gemini.png" alt="Süni intellekt">
+          <img src="images/gemini.png" alt="Süni intellekt">
           <span>Süni intellekt</span>
         </button>
 
-        <button class="icon" onclick="openCategory('elevenlabs', this)">
-          <img src="/elevenlabs.png" alt="Səs klonlama">
+        <button class="icon elevenlabs" onclick="openCategory('elevenlabs', this)">
+          <img src="images/elevenlabs.png" alt="Səs klonlama">
           <span>Səs klonlama</span>
         </button>
 
-        <button class="icon" onclick="openCategory('navigator', this)">
-          <img src="/waze.navigation.png" alt="Navigator">
+        <button class="icon navigator" onclick="openCategory('navigator', this)">
+          <img src="images/waze.navigation.png" alt="Navigator">
           <span>Navigator</span>
         </button>
 
-        <button class="icon" onclick="openCategory('youtube', this)">
-          <img src="/youtube.png" alt="Youtube">
+        <button class="icon youtube" onclick="openCategory('youtube', this)">
+          <img src="images/youtube.png" alt="Youtube">
           <span>Youtube</span>
         </button>
 
         <button class="icon" onclick="openCategory('Translate_Add_Subtitles_Video', this)">
-          <img src="/video.tərcümə.png" alt="Translate_Add_Subtitles_Video">
+          <img src="images/video.tərcümə.png" alt="Translate_Add_Subtitles_Video">
           <span>Video tərcümə</span>
         </button>
 
         <button class="icon" onclick="openCategory('Paysend', this)">
-          <img src="/paysend.png" alt="Paysend">
+          <img src="images/paysend.png" alt="Paysend">
           <span>Paysend</span>
         </button>
+
+        <button class="icon" onclick="openCategory('NextDNS', this)">
+          <img src="images/NextDNS.png" alt="NextDNS">
+          <span>Reklamlari durdurma</span>
+        </button>
+
+        <button class="icon" onclick="openCategory('Pdf', this)">
+          <img src="images/pdf.png" alt="Pdf">
+          <span>Pdf</span>
+        </button>
+
+        <button class="icon speed" onclick="openCategory('SpeedTest', this)">
+          <img src="images/speed.png" alt="SpeedTest">
+          <span>Internet sürəti</span>
+        </button>
+
+
+        <div class="premium-text" style="max-width:500px; margin:20px auto; text-align:center;">
+  <p id="desc1">Bu sayt müxtəlif problemlərə qısa və aydın cavablar təqdim edir.</p>
+  <p id="desc2">WhatsApp, Instagram və digər tətbiqlərlə bağlı həll yollarını tapa bilərsiniz.</p>
+  <p id="desc3">Məqsədimiz istifadəçilərə sürətli və faydalı məlumat verməkdir.</p>
+</div>
+        
+
 
       </div>
 
@@ -119,7 +176,7 @@
       <!-- CAVAB -->
 
       <div class="feedback-box">
-  <span>Bu cavab faydalı oldumu?</span>
+  <span id="feedback">Bu cavab faydalı oldumu?</span>
 
   <button type="button" class="fb-btn like" onclick="sendVote('Like')">
     👍 Like
@@ -128,6 +185,9 @@
   <button type="button" class="fb-btn dislike" onclick="sendVote('Dislike')">
     👎 Dislike
   </button>
+
+  <div class="ad-box"></div>
+  
 
   <div id="voteMessage" class="vote-message"></div>
 
@@ -144,7 +204,7 @@
 </form>
 
 
-</form>
+
 </div>
 
 
@@ -152,17 +212,15 @@
   <span id="textAnswer"></span>
   </div>
 
-  <button class="action-btn"
-          onclick="playVoice(); setActiveGlow(this)">
+ <div id="voiceControls" style="display: none;">
+  <button class="action-btn" onclick="playVoice(); setActiveGlow(this)">
     🔊 Dinlə
   </button>
 
-  <button class="action-btn"
-          onclick="stopVoice(); setActiveGlow(this)">
-    ⏹️ Dayandır
+  <button class="action-btn" onclick="stopVoice(); setActiveGlow(this)">
+    ⏹ Dayandır
   </button>
 </div>
-
 <audio id="voice" preload="auto"></audio>
 
         
@@ -173,32 +231,16 @@
   
 
   <footer class="site-footer">
-© 2026 Qısa Cavab Saytı<br>
-<span>Bu sayt məlumatlandırma məqsədi daşıyır və rəsmi dəstək xidməti deyil.</span><br>
+<footer class="site-footer">
+  <p id="footer1"></p>
+  <p id="footer2"></p>
+</footer>
 
-<p class="contact-email">
-📧 Əlaqə:
-<a href="mailto:bilgi.mekani555@gmail.com">
-bilgi.mekani555@gmail.com
-</a>
-</p>
 
 </footer>
   <script src="script.js"></script>
+
+  
   
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
