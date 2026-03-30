@@ -118,7 +118,7 @@ NextDNS: [
 Pdf: [
   {
     q: "PDF (Ios)",
-    a: "PDF düzəltmək üçün gir və yüklə https://apps.apple.com/us/app/photos-pdf-scanner-converter/id1210034113"
+    a: "Pdf düzəltmək üçün gir və yüklə https://apps.apple.com/us/app/photos-pdf-scanner-converter/id1210034113"
   }
 ],
 
