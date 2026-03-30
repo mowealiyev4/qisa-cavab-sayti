@@ -141,43 +141,43 @@ SpeedTest: [
 // Səslər 
 //======================
 const AUDIO_MAP = {
-  "Linkə gir və tiktok vidyosunun linkini yapışdır.https://ssstik.io": "audio/logosuz.və.gizli.mp3",
+  "Linkə gir və tiktok vidyosunun linkini yapışdır.https://ssstik.io": "/logosuz.və.gizli.mp3",
 
-  "Linkə gir https://savefrom.com.de": "audio/Youtube.video.musiqi.mp3",
+  "Linkə gir https://savefrom.com.de": "/Youtube.video.musiqi.mp3",
 
-  "Saytda öz səsini klonla və bilməlisən ki (Sayt pulludur) https://elevenlabs.io": "audio/Səs.klonlama.mp3",
+  "Saytda öz səsini klonla və bilməlisən ki (Sayt pulludur) https://elevenlabs.io": "/Səs.klonlama.mp3",
 
-  "Süni intellekt platformasıdır.https://gemini.google.com/app": "audio/gemini.mp3",
+  "Süni intellekt platformasıdır.https://gemini.google.com/app": "/gemini.mp3",
 
-  "Linkə gir https://www.remove.bg": "audio/youtube.video.musiqi.mp3",
+  "Linkə gir https://www.remove.bg": "/youtube.video.musiqi.mp3",
 
-  "Sticker yaratmaq üçün gir və yüklə.https://play.google.com/store/apps/details?id=com.marsvard.stickermakerforwhatsapp": "audio/whatsapp.sticker.mp3",
+  "Sticker yaratmaq üçün gir və yüklə.https://play.google.com/store/apps/details?id=com.marsvard.stickermakerforwhatsapp": "/whatsapp.sticker.mp3",
 
-  "Sticker yaratmaq üçün gir və yüklə.https://apps.apple.com/us/app/sticker-maker-studio/id1443326857": "audio/whatsapp.sticker.mp3",
+  "Sticker yaratmaq üçün gir və yüklə.https://apps.apple.com/us/app/sticker-maker-studio/id1443326857": "/whatsapp.sticker.mp3",
 
-  "WhatsApp açılmırsa, tədbiqi yenilə keşini təmizlə və telefonu yenidən başlat.": "audio/whatsapp.açılmır.mp3",
+  "WhatsApp açılmırsa, tədbiqi yenilə keşini təmizlə və telefonu yenidən başlat.": "/whatsapp.açılmır.mp3",
 
-  "Whatsapp mesaj getmirsə interneti yoxla uçuş rejimini açıb bağla və telefonu restart et.": "audio/whatsapp.mesaj.getmir.mp3",
+  "Whatsapp mesaj getmirsə interneti yoxla uçuş rejimini açıb bağla və telefonu restart et.": "/whatsapp.mesaj.getmir.mp3",
 
-  "Telegrama girmirsə vəya telegramdan atırsa səni, o zaman telefonu söndür yandır.": "audio/Telegrama.girmir.vəya.atırsa.telegramdan.mp3",
+  "Telegrama girmirsə vəya telegramdan atırsa səni, o zaman telefonu söndür yandır.": "/Telegrama.girmir.vəya.atırsa.telegramdan.mp3",
 
-  "İnstagram açılmırsa interneti yoxla tədbigi bağlayıb aç keş təmizlə və yeniləmə olub olmadığını yoxla": "audio/instagram.açılmır.mp3",
+  "İnstagram açılmırsa interneti yoxla tədbigi bağlayıb aç keş təmizlə və yeniləmə olub olmadığını yoxla": "/instagram.açılmır.mp3",
 
-  "Gir və yüklə https://apps.apple.com/il/app/translate-add-subtitles-video/id1548718114": "audio/video.tərcümə.mp3",
+  "Gir və yüklə https://apps.apple.com/il/app/translate-add-subtitles-video/id1548718114": "/video.tərcümə.mp3",
 
-  "Gir və yüklə https://apps.apple.com/us/app/paysend-simple-money-transfer/id1140130413": "audio/video.tərcümə.mp3",
+  "Gir və yüklə https://apps.apple.com/us/app/paysend-simple-money-transfer/id1140130413": "/video.tərcümə.mp3",
 
-  "Gir və yüklə https://play.google.com/store/apps/details?id=com.paysend.app&hl=en": "audio/video.tərcümə.mp3",
+  "Gir və yüklə https://play.google.com/store/apps/details?id=com.paysend.app&hl=en": "/video.tərcümə.mp3",
   
-  "Canlı yol və xəritə navigasiyası üçün istifadə olunur https://play.google.com/store/apps/details?id=com.waze&hl=en-US": "audio/Waze.navigation.mp3",
+  "Canlı yol və xəritə navigasiyası üçün istifadə olunur https://play.google.com/store/apps/details?id=com.waze&hl=en-US": "/Waze.navigation.mp3",
 
-  "Canlı yol və xəritə navigasiyası üçün istifadə olunur https://apps.apple.com/us/app/waze-navigation-live-traffic/id323229106": "audio/Waze.navigation.mp3",
+  "Canlı yol və xəritə navigasiyası üçün istifadə olunur https://apps.apple.com/us/app/waze-navigation-live-traffic/id323229106": "/Waze.navigation.mp3",
   
-  "Gir yüklə və quraşdır https://apps.apple.com/tr/app/nextdns/id1463342498?l=tr": "audio/nextdns.mp3",
+  "Gir yüklə və quraşdır https://apps.apple.com/tr/app/nextdns/id1463342498?l=tr": "/nextdns.mp3",
 
-  "İnternetin sürətini yoxla https://www.speedtest.net/": "audio/speed.mp3",
+  "İnternetin sürətini yoxla https://www.speedtest.net/": "/speed.mp3",
 
-  "Pdf düzəltmək üçün gir və yüklə https://apps.apple.com/us/app/photos-pdf-scanner-converter/id1210034113": "audio/pdf.mp3",
+  "Pdf düzəltmək üçün gir və yüklə https://apps.apple.com/us/app/photos-pdf-scanner-converter/id1210034113": "/pdf.mp3",
 };
 
 function playVoice() {
