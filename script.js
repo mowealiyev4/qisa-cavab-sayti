@@ -149,7 +149,7 @@ const AUDIO_MAP = {
 
   "Süni intellekt platformasıdır.https://gemini.google.com/app": "/gemini.mp3",
 
-  "Linkə gir https://www.remove.bg": "/youtube.video.musiqi.mp3",
+  "Linkə gir https://www.remove.bg": "/Youtube.video.musiqi.mp3",
 
   "Sticker yaratmaq üçün gir və yüklə.https://play.google.com/store/apps/details?id=com.marsvard.stickermakerforwhatsapp": "/whatsapp.sticker.mp3",
 
